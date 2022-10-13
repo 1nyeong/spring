@@ -14,7 +14,7 @@ public class TestController {
     private TestService testService;
 
     @GetMapping("/test")
-    public String run(){
+    public String run() {
         testService.logic1();
         return "DI_IoC 수업";
     }
